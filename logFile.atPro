@@ -1,0 +1,135 @@
+{
+ "type": "folder",
+ "pjType": "pc - software",
+ "name": "Artefact-Labs",
+ "iconA": "folderA",
+ "version": "0.0.1",
+ "description": "The Official web site of Artefact-Labs",
+ "author": "Artefact-Team",
+ "child": [
+  {
+   "type": "folder",
+   "name": "At",
+   "iconA": "folderB",
+   "col": "#F9B31E",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.at",
+     "iconA": "at"
+    },
+    {
+     "type": "folder",
+     "name": "Pages",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "folder",
+       "name": "Ide",
+       "iconA": "folderC",
+       "col": "pink"
+      },
+      {
+       "type": "folder",
+       "name": "Linguist",
+       "iconA": "folderC",
+       "col": "pink"
+      },
+      {
+       "type": "folder",
+       "name": "Gaming",
+       "iconA": "folderC",
+       "col": "pink"
+      },
+      {
+       "type": "folder",
+       "name": "ApkGenerator",
+       "iconA": "folderC",
+       "col": "pink"
+      },
+      {
+       "type": "folder",
+       "name": "Design",
+       "iconA": "folderC",
+       "col": "pink"
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Components",
+     "iconA": "folderC",
+     "col": "pink"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Js",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.js",
+     "iconA": "js"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Resources",
+   "iconA": "folderC",
+   "col": "pink",
+   "child": []
+  },
+  {
+   "type": "folder",
+   "name": "Structure",
+   "iconA": "folderD",
+   "col": "green",
+   "deco": "pjStruc",
+   "child": [
+    {
+     "type": "file",
+     "name": "Adder.aat",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Packager.apm",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Router.art",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Store.as",
+     "child": []
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Style",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.css",
+     "iconA": "css"
+    }
+   ]
+  }
+ ],
+ "setting": [
+  {
+   "name": "Artefact-Labs"
+  }
+ ],
+ "appId": "com.artefact-labs",
+ "designState": {}
+}
