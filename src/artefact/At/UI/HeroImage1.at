@@ -1,0 +1,21 @@
+
+Item{
+  id: "item0",
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    Image{
+      id: "imageitem05",
+      width: "95%",
+      radius: 8,
+      fillMode: "preserveAspectCrop",
+      class: [
+        "shadow"
+      ],
+      verticalCenter: 0,
+      horizontalCenter: 0
+    }
+  ]
+},

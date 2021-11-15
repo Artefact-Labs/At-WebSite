@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "typed.js": {
+      "version": "",
+      "modified": false
+    }
+  },
+  "devDependencies": {},
+  "dependenciesKeyList": [
+    "typed.js"
+  ],
+  "devDependenciesKeyList": []
+}

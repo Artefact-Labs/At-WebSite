@@ -1,0 +1,30 @@
+{
+  "Navbar": {
+    "documentation": "Documentation",
+    "signin": "Sign in",
+    "designer": "Designer",
+    "ide": "Ide",
+    "game": "Game",
+    "request": "Request Features",
+    "release": "Release Notes",
+    "tutorial": "Tutorials",
+    "forum": "Forum",
+    "download": "Download",
+    "trackSession": "We track sessions with cookies",
+    "forWhat": "For what?"
+  },
+  "Cookies": {
+    "explanation": "We use cookies and local storage for better UX (such as your collections in icons app), extra powers for the paid users, analytics, and ads.",
+    "ourPPolicy": "Our privacy policy"
+  },
+  "Footer": {
+    "privacyPo": "Privacy Policy",
+    "termsCond": "Terms and Conditions"
+  },
+  "IDE_page": {
+    "StartIt": "Start now to create great projects on all platforms.",
+    "brand": "The tool for a fast, simple and efficient development.",
+    "downloadSoft": "Download the software",
+    "description": "Artefact is a powerful framework for developing software, games, websites and applications. It offers all the design power of software like Sketch, including the management of the responsive and backend of its project."
+  }
+}

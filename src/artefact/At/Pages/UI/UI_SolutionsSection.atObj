@@ -1,0 +1,20 @@
+Data features = [
+	{
+		title: this.$t('IDE_page.solutionTag1'),
+		text: this.$t('IDE_page.solution1'), 
+		color: "#f7c468", 
+		icon: "ion-ios-globe"
+	},
+	{
+		title: this.$t('IDE_page.solutionTag2'),
+		text: this.$t('IDE_page.solution2'), 
+		color: "#65b89e", 
+		icon: "ion-ios-laptop"
+	},
+	{
+		title: this.$t('IDE_page.solutionTag3'),
+		text: this.$t('IDE_page.solution3'), 
+		color: "#c7ecff", 
+		icon: "ion-ios-phone-portrait"
+	},
+]

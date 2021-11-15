@@ -1,0 +1,87 @@
+
+Row{
+  id: "row0",
+  width: "auto",
+  child: [
+    Icon{
+      id: "iconrow01",
+      width: 20,
+      height: 20,
+      x: 0,
+      verticalCenter: 0,
+      size: 20,
+      iconName: "ion-md-cloud-download",
+      color: "<#textColor#>"
+    },
+    Text{
+      id: "textrow03",
+      width: "auto",
+      height: 100,
+      x: 0,
+      top: 0,
+      bottom: 0,
+      value: "<#this.$t('IDE_page.downloadSoft')#>",
+      verticalAlign: "center",
+      fontSize: 15,
+      color: "<#textColor#>",
+      fontFamily: "Century Gothic",
+      whiteSpace: "nowrap"
+    },
+    Row{
+      id: "rowrow06",
+      width: "auto",
+      height: 100,
+      x: 0,
+      child: [
+        Row{
+          id: "rowrow08",
+          width: "auto",
+          x: 0,
+          child: [
+            Rectangle{
+              id: "rectanglerow05",
+              width: 1,
+              x: 0,
+              color: "<#textColor#>"
+            },
+            Text{
+              id: "textrow0342",
+              width: "auto",
+              x: 0,
+              top: 0,
+              bottom: 0,
+              value: "<#item.name#>",
+              verticalAlign: "center",
+              fontSize: 15,
+              color: "<#textColor#>",
+              fontFamily: "Century Gothic",
+              child: [
+                Link{
+                  id: "linktextrow03421",
+                  right: 0,
+                  left: 0,
+                  top: 0,
+                  bottom: 0,
+                  to: "<#item.link#>",
+									_download: "<#true#>"
+                }
+              ]
+            }
+          ],
+          top: 0,
+          bottom: 0,
+          gap: 5,
+          modelFor: "<#linkList#>"
+        }
+      ],
+      top: 0,
+      bottom: 0
+    }
+  ],
+  gap: 15,
+  paddingTop: 10,
+  paddingBottom: 10,
+  position: "relative",
+  top: 0,
+  bottom: 0
+},

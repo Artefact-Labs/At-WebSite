@@ -1,0 +1,72 @@
+
+Column{
+  id: "column0",
+  height: "auto",
+  paddingLeft: 20,
+  paddingRight: 20,
+  child: [
+    Column{
+      id: "leadSection2",
+      height: "auto",
+      bottom: 80,
+      left: {
+        default: 0,
+        md: "26%"
+      },
+      right: {
+        default: 0,
+        md: "26%"
+      },
+      child: [
+        Text{
+          id: "text1",
+          width: "auto",
+          height: "auto",
+          value: "<#this.$t('IDE_page.newUniv')#>",
+          fontSize: {
+            default: 45,
+            md: 54
+          },
+          fontFamily: "Century Gothic",
+          bold: true,
+          bottom: 30,
+          left: 0,
+          right: 0,
+          lineHeight: 70,
+          letterSpacing: -1,
+          wordSpacing: -1,
+          horizontalAlign: "center",
+          aos: "fade-right"
+        },
+        Text{
+          id: "text2",
+          width: "auto",
+          height: "auto",
+          value: "<#this.$t('IDE_page.helpDesc')#>",
+          fontSize: {
+            default: 18,
+            lg: 21
+          },
+          fontFamily: "Century Gothic",
+          bottom: 40,
+          left: 0,
+          right: 0,
+          lineHeight: 34,
+          letterSpacing: -1,
+          horizontalAlign: "center"
+        }
+      ],
+      position: "relative"
+    },
+    Object{
+      id: "ressourcetabcolumn03",
+      name: "RessourceTab",
+      left: 0,
+      right: 0,
+      bind_datas: "<#datas#>"
+    }
+  ],
+  left: 0,
+  right: 0,
+  position: "relative"
+},

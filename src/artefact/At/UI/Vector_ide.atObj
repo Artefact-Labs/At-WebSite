@@ -1,0 +1,27 @@
+import Typed from 'typed.js';
+
+Data numberLine = 10
+
+Mounted { 
+	let code = `
+			Rectangle{^1000
+      	id: "topDot",
+        width: 10,
+        height: 10,
+        x: 0,
+        color: "#ff155f",
+        radius: 5,
+        verticalCenter: 0
+      }
+		`
+		
+	this.numberLine = code.split(/\n/gm).length
+	var options = {
+  	strings: [code],
+	  typeSpeed: 40,
+    backSpeed: 0,
+    loop: true
+	};
+	
+	var typed = new Typed('#typed', options);
+}

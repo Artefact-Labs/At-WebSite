@@ -1,0 +1,43 @@
+Property leftColor = "#179de3"
+Property rightColor = "#1fa9f1"
+Property borderColor = "#1fa9f1"
+Property hoverColor = "#158dcc"
+Property textColor = "#ffffff"
+
+Property datas = []
+
+Property Function selectPlatform = (()=>{})
+
+Data hovered = false
+Data currentId = 0
+
+Data panelVisible = false
+
+Computed currentText(){
+ return this.datas[this.currentId].name
+}
+Computed currentImage(){
+	return this.datas[this.currentId].image
+}
+
+Computed color(){
+	return (this.hovered ? this.hoverColor : this.leftColor)
+}
+
+Method hoverIn(){ 
+	this.hovered = true
+}
+
+Method hoverOut(){ 
+	this.hovered = false
+}
+
+Method openPanel(){ 
+	this.panelVisible = !this.panelVisible
+}
+
+Method choose(id){ 
+	this.currentId = id
+	this.selectPlatform(id)
+	this.panelVisible = false
+}

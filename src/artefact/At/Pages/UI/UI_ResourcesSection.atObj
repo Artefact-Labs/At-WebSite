@@ -1,0 +1,34 @@
+Data datas = [
+	{
+		title: this.$t('IDE_page.fast'), 
+		icon: "ion-md-home",
+		color: "#65b89e",
+		contentTitle: this.$t('IDE_page.itIsFast'),
+		contextText: this.$t('IDE_page.fastDescripton'),
+		image: "https://picsum.photos/200/?random=1"
+	},
+	{
+		title: this.$t('IDE_page.easy'), 
+		icon: "ion-md-add",
+		color: "#c7ecff",
+		contentTitle: this.$t('IDE_page.itIsEasy'),
+		contextText: this.$t('IDE_page.easyDescripton'),
+		image: "https://picsum.photos/200/?random=2"
+	},
+	{
+		title: this.$t('IDE_page.designO'), 
+		icon: "ion-md-alarm",
+		color: "#6462cd",
+		contentTitle: this.$t('IDE_page.itIsDesO'),
+		contextText: this.$t('IDE_page.designODescription'),
+		image: "https://picsum.photos/200/?random=3"
+	},
+	{
+		title: this.$t('IDE_page.futureP'), 
+		icon: "ion-md-apps",
+		color: "#e95350",
+		contentTitle: this.$t('IDE_page.itIsFutureP'),
+		contextText: this.$t('IDE_page.featurePDescription'),
+		image: "https://picsum.photos/200/?random=4"
+	},
+]

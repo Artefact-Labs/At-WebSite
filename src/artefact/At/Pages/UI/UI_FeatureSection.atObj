@@ -1,0 +1,10 @@
+Data features = [
+	{text: "Sketch", color: "#65b89e", icon: "ion-ios-add"},
+	{text: "Sketch", color: "#007fff", icon: "ion-ios-add"},
+	{text: "Sketch", color: "#e95350", icon: "ion-ios-add"},
+	{text: "Sketch", color: "#000000", icon: "ion-ios-add"},
+	{text: "Sketch", color: "#795548", icon: "ion-ios-add"},
+	{text: "Sketch", color: "#6462cd", icon: "ion-ios-add"},
+	{text: "Sketch", color: "#d81b60", icon: "ion-ios-add"},
+	{text: "Sketch", color: "#fceddf", icon: "ion-ios-add"},
+]

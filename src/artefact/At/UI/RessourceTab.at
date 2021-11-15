@@ -1,0 +1,140 @@
+
+Column{
+  id: "column0",
+  left: 0,
+  right: 0,
+  height: "auto",
+  child: [
+    Flow{
+      id: "flowcolumn01",
+      left: 0,
+      right: 0,
+      height: "auto",
+      child: [
+        Object{
+          id: "tabitemflowcolumn011",
+          name: "TabItem",
+          width: {
+            default: "50%",
+            md: 160
+          },
+          height: 105,
+          modelFor: "<#datas#>",
+          bind_actived: "<#(this.activedTab == index)#>",
+          bind_title: "<#item.title#>",
+          bind_icon: "<#item.icon#>",
+          bind_color: "<#item.color#>",
+          bind_time: "<#timePerTab#>",
+          onNextTab: "<#nextTab#>",
+          onSetActiveTab: "<#setActiveTab#>",
+          bind_ip: "<#index#>"
+        }
+      ],
+      justify: "center"
+    },
+    TransitionGroup{
+      id: "transitiongroupcolumn03",
+      left: {
+        default: 0,
+        md: "10%"
+      },
+      right: {
+        default: 0,
+        md: "10%"
+      },
+      height: "auto",
+      child: [
+        Grid{
+          id: "gridtransitiongroupcolumn031",
+          left: 0,
+          right: 0,
+          height: "auto",
+          child: [
+            Col{
+              id: "colgridtransitiongroupcolumn0311",
+              cols: 12,
+              md: 6,
+              child: [
+                Column{
+                  id: "leadSection21",
+                  height: "auto",
+                  left: 0,
+                  right: 0,
+                  child: [
+                    Text{
+                      id: "text1",
+                      width: "auto",
+                      height: "auto",
+                      value: "<#item.contentTitle#>",
+                      fontSize: {
+                        default: 45,
+                        md: 54
+                      },
+                      fontFamily: "Century Gothic",
+                      bold: true,
+                      bottom: 30,
+                      left: 0,
+                      right: 0,
+                      lineHeight: 70,
+                      letterSpacing: -1,
+                      wordSpacing: -1,
+                      horizontalAlign: {
+                        default: "center",
+                        md: "left"
+                      }
+                    },
+                    Text{
+                      id: "text2",
+                      width: "auto",
+                      height: "auto",
+                      value: "<#item.contextText#>",
+                      fontSize: {
+                        default: 18,
+                        lg: 21
+                      },
+                      fontFamily: "Century Gothic",
+                      bottom: 40,
+                      left: 0,
+                      right: 0,
+                      lineHeight: 34,
+                      letterSpacing: -1,
+                      horizontalAlign: {
+                        default: "center",
+                        md: "left"
+                      }
+                    }
+                  ],
+                  position: "relative",
+                  y: 0
+                }
+              ]
+            },
+            Col{
+              id: "colgridtransitiongroupcolumn03112",
+              cols: 12,
+              md: 6,
+              child: [
+                NetworkImage{
+                  id: "networkimagecolgridtransitiongroupcolumn031121",
+                  source: "<#item.image#>",
+                  radius: 8,
+                  left: 0,
+                  right: 0,
+                  fillMode: "preserveAspectCrop",
+                  top: 0,
+                  bottom: 0
+                }
+              ],
+              height: 300
+            }
+          ],
+          modelFor: "<#datas#>",
+          modelShow: "<#(this.activedTab == index)#>",
+          position: "relative"
+        }
+      ],
+      enterActiveClass: "animated fadeInRight"
+    }
+  ],
+  position: "relative"
+},

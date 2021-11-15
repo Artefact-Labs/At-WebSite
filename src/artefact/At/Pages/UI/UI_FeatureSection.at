@@ -1,0 +1,95 @@
+
+Column{
+  id: "column0",
+  height: "auto",
+  paddingLeft: 20,
+  paddingRight: 20,
+  child: [
+    Column{
+      id: "leadSection2",
+      height: "auto",
+      bottom: 80,
+      left: {
+        default: 0,
+        md: "26%"
+      },
+      right: {
+        default: 0,
+        md: "26%"
+      },
+      child: [
+        Text{
+          id: "text1",
+          width: "auto",
+          height: "auto",
+          value: "Graphic design software with built-in assets",
+          fontSize: {
+            default: 45,
+            md: 54
+          },
+          fontFamily: "Century Gothic",
+          bold: true,
+          bottom: 30,
+          left: 0,
+          right: 0,
+          lineHeight: 70,
+          letterSpacing: -1,
+          wordSpacing: -1,
+          horizontalAlign: "center",
+          aos: "fade-right"
+        },
+        Text{
+          id: "text2",
+          width: "auto",
+          height: "auto",
+          value: "Lunacy is a powerful vector design tool for Windows. It offers all the power of Sketch, including reading and saving (!) Sketch files. It s free of charge without any time limit.",
+          fontSize: {
+            default: 18,
+            lg: 21
+          },
+          fontFamily: "Century Gothic",
+          bottom: 40,
+          left: 0,
+          right: 0,
+          lineHeight: 34,
+          letterSpacing: -1,
+          horizontalAlign: "center"
+        }
+      ],
+      position: "relative"
+    },
+    Flow{
+      id: "gridcolumn03",
+      left: {
+        default: 0,
+        md: "10%"
+      },
+      right: {
+        default: 0,
+        md: "10%"
+      },
+      child: [
+        Object{
+          id: "featureitemgridcolumn031",
+          name: "FeatureItem",
+          width: {
+            default: "50%",
+            md: "25%"
+          },
+          height: 136,
+          modelFor: "<#features#>",
+          bind_title: "<#item.text#>",
+          bind_color: "<#item.color#>",
+          bind_icon: "<#item.icon#>",
+          bind_noGradiant: true,
+          aos: "flip-up"
+        }
+      ],
+      justify: "center",
+      "_row-gap": "80px"
+    }
+  ],
+  left: 0,
+  right: 0,
+  position: "relative"
+},

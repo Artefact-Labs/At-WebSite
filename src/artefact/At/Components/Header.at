@@ -1,0 +1,154 @@
+
+Row{
+  id: "rectangle0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    Row{
+      id: "rowrectangle04",
+      width: "auto",
+      x: 0,
+      child: [
+        Row{
+          id: "rowrectangle01",
+          width: "auto",
+          x: 0,
+          verticalCenter: 0,
+          child: [
+            Image{
+              id: "imagerowrectangle011",
+              width: 18,
+              height: 18,
+              x: 0,
+              source: "Resources/logo.png",
+              verticalCenter: 0
+            },
+            Text{
+              id: "textrowrectangle013",
+              width: 100,
+              height: "auto",
+              x: 0,
+              top: 0,
+              bottom: 0,
+              value: "Artefact-Labs",
+              verticalAlign: "center",
+              fontFamily: "Century Gothic",
+              fontSize: 15,
+              bold: true
+            }
+          ],
+          gap: 5
+        },
+        Row{
+          id: "rowrectangle012",
+          width: "auto",
+          x: 0,
+          verticalCenter: 0,
+          child: [
+            Button{
+              id: "buttonrowrectangle0121",
+              width: "auto",
+              height: 32,
+              x: 0,
+              y: 0,
+              flat: true,
+              value: "<#this.$t('Navbar.documentation')#>"
+            },
+            Button{
+              id: "buttonrowrectangle01212",
+              width: "auto",
+              height: 32,
+              x: 0,
+              y: 0,
+              flat: true,
+              value: "<#this.$t('Navbar.request')#>"
+            },
+            Button{
+              id: "buttonrowrectangle01213",
+              width: "auto",
+              height: 32,
+              x: 0,
+              y: 0,
+              flat: true,
+              value: "<#this.$t('Navbar.release')#>"
+            },
+            Button{
+              id: "buttonrowrectangle01214",
+              width: "auto",
+              height: 32,
+              x: 0,
+              y: 0,
+              flat: true,
+              value: "<#this.$t('Navbar.tutorial')#>"
+            },
+            Button{
+              id: "buttonrowrectangle01215",
+              width: "auto",
+              height: 32,
+              x: 0,
+              y: 0,
+              flat: true,
+              value: "<#this.$t('Navbar.forum')#>"
+            }
+          ],
+          visible: {
+            default: false,
+            md: true
+          }
+        }
+      ],
+      verticalCenter: 0,
+      gap: 20
+    },
+    Row{
+      id: "rowrectangle03",
+      width: "auto",
+      x: 0,
+      verticalCenter: 0,
+      child: [
+        Button{
+          id: "buttonrowrectangle031",
+          width: 30,
+          height: 30,
+          x: 0,
+          y: 0,
+          onlyIcon: true,
+          fab: true,
+          flat: true,
+          icon: "ion-md-menu",
+          visible: {
+            default: true,
+            md: false
+          }
+        },
+        Button{
+          id: "buttonrowrectangle033",
+          width: "auto",
+          height: 32,
+          x: 0,
+          y: 0,
+          backgroundColor: "<#primColor#>",
+          dark: true,
+          value: "<#this.$t('Navbar.download')#>",
+          visible: {
+            default: false,
+            md: true
+          },
+          textTransform: "capitalize"
+        }
+      ]
+    }
+  ],
+  color: "#fff",
+  paddingTop: 14,
+  paddingBottom: 14,
+  paddingLeft: 24,
+  paddingRight: 24,
+  justify: "space-between"
+},

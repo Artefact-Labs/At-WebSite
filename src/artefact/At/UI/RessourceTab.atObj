@@ -1,0 +1,46 @@
+Property datas = [
+	{
+		title: "Icons", 
+		icon: "ion-md-home",
+		color: "green",
+		contentTitle: "Graphic design software with built-in assets1",
+		contextText: "Lunacy is a powerful vector design tool for Windows.",
+		image: "https://picsum.photos/200/?random=1"
+	},
+	{
+		title: "Photos", 
+		icon: "ion-md-add",
+		color: "blue",
+		contentTitle: "Graphic design software with built-in assets1",
+		contextText: "Lunacy is a powerful vector design tool for Windows.",
+		image: "https://picsum.photos/200/?random=2"
+	},
+	{
+		title: "Masked Photos", 
+		icon: "ion-md-alarm",
+		color: "indigo",
+		contentTitle: "Graphic design software with built-in assets1",
+		contextText: "Lunacy is a powerful vector design tool for Windows.",
+		image: "https://picsum.photos/200/?random=3"
+	},
+	{
+		title: "Icons", 
+		icon: "ion-md-apps",
+		color: "red",
+		contentTitle: "Graphic design software with built-in assets1",
+		contextText: "Lunacy is a powerful vector design tool for Windows.",
+		image: "https://picsum.photos/200/?random=4"
+	},
+]
+
+Property timePerTab = 10000
+
+Data activedTab = 0
+
+Method nextTab(){ 
+	this.activedTab = (this.activedTab + 1) % this.datas.length
+}
+
+Method setActiveTab(ip){ 
+	this.activedTab = ip
+}

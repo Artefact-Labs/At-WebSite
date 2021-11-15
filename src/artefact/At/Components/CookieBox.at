@@ -1,0 +1,101 @@
+
+Row{
+  id: "rowitem032",
+  width: "auto",
+  paddingTop: 14,
+  paddingBottom: 14,
+  paddingLeft: 24,
+  paddingRight: 24,
+  opacity: 0.9,
+  color: "#4d545b",
+  child: [
+    Text{
+      id: "textrowitem031",
+      width: "auto",
+      height: "auto",
+      x: 0,
+      value: "<#this.$t('Navbar.trackSession')#>",
+      color: "#fff",
+      bold: true,
+      fontFamily: "Century Gothic",
+      fontSize: 14,
+      modelIf: "<#!this.expended#>",
+      top: 0,
+      bottom: 0,
+      verticalAlign: "center"
+    },
+    Text{
+      id: "textrowitem0312",
+      width: "auto",
+      height: "auto",
+      x: 0,
+      value: "<#this.$t('Navbar.forWhat')#>",
+      color: "#fff",
+      bold: true,
+      fontFamily: "Century Gothic",
+      fontSize: 14,
+      opacity: 0.8,
+      underline: true,
+      modelIf: "<#!this.expended#>",
+      top: 0,
+      bottom: 0,
+      verticalAlign: "center"
+    },
+    Column{
+      id: "columnrowitem0328",
+      width: 363,
+      height: "auto",
+      x: 0,
+      y: 0,
+      modelIf: "<#expended#>",
+      child: [
+        Text{
+          id: "textrowitem03124",
+          width: 363,
+          height: "auto",
+          x: 0,
+          value: "<#this.$t('Cookies.explanation')#>",
+          color: "#fff",
+          bold: true,
+          fontFamily: "Century Gothic",
+          fontSize: 14,
+          y: 0
+        },
+        Text{
+          id: "textrowitem03122",
+          width: "auto",
+          height: "auto",
+          x: 0,
+          value: "<#this.$t('Cookies.ourPPolicy')#>",
+          color: "#fff",
+          bold: true,
+          fontFamily: "Century Gothic",
+          fontSize: 14,
+          opacity: 0.8,
+          underline: true,
+          top: 0,
+          bottom: 0,
+          verticalAlign: "center"
+        }
+      ],
+      gap: 10
+    },
+    Button{
+      id: "buttonrowitem035",
+      width: 40,
+      height: 30,
+      x: 0,
+      value: "OK",
+      dark: true,
+      backgroundColor: "#626a73",
+      onClicked: "<#toggle#>",
+      y: 0
+    }
+  ],
+  radius: 6,
+  gap: 8,
+  y: 0,
+  x: 0,
+  position: "relative",
+  height: "auto"
+},

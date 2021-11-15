@@ -1,0 +1,52 @@
+Data version = '0.5.7'
+
+Data plattform = [
+	{
+		name: "Windows", 
+		image: "Resources/Utils/windows.png",
+		downLoadLink: [
+			{
+				name: "64 Bit (.exe)",
+				link: "https://artefact-labs.com/download/atCreator.exe"
+			},
+			{
+				name: "32 Bit (.exe)",
+				link: "https://artefact-labs.com/download/atCreator.exe"
+			},
+		],		
+	},
+	{
+		name: "MacOS", 
+		image: "Resources/Utils/mac.png",
+		downLoadLink: [
+			{
+				name: ".dmg",
+				link: "https://artefact-labs.com/download/atCreator.exe"
+			},
+			{
+				name: ".app",
+				link: "https://artefact-labs.com/download/atCreator.exe"
+			},
+		]
+	},
+	{
+		name: "Linux", 
+		image: "Resources/Utils/linux.png",
+		downLoadLink: [
+			{
+				name: "(App)",
+				link: "https://artefact-labs.com/download/atCreator.exe"
+			},
+		]
+	}
+]
+
+Data selectedPlateform = 0
+
+Computed currentLinkList(){ 
+	return this.plattform[this.selectedPlateform].downLoadLink
+}
+
+Method selectPlateform (id) { 
+	this.selectedPlateform = id
+}

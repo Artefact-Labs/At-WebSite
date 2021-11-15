@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/",
+    "component": "At/main",
+		"redirect": "ide"
+  },
+  {
+    "name": "ui",
+    "path": "/ui",
+    "component": "At/Pages/UiPage"
+  },
+  {
+    "name": "ide",
+    "path": "/ide",
+    "component": "At/Pages/IdePage"
+  }
+]

@@ -1,0 +1,95 @@
+
+Column{
+  id: "column0",
+  height: "auto",
+  paddingLeft: 20,
+  paddingRight: 20,
+  child: [
+    Column{
+      id: "leadSection2",
+      height: "auto",
+      bottom: 80,
+      left: {
+        default: 0,
+        md: "26%"
+      },
+      right: {
+        default: 0,
+        md: "26%"
+      },
+      child: [
+        Text{
+          id: "text1",
+          width: "auto",
+          height: "auto",
+          value: "<#this.$t('IDE_page.discoverSolution')#>",
+          fontSize: {
+            default: 45,
+            md: 54
+          },
+          fontFamily: "Century Gothic",
+          bold: true,
+          bottom: 30,
+          left: 0,
+          right: 0,
+          lineHeight: 70,
+          letterSpacing: -1,
+          wordSpacing: -1,
+          horizontalAlign: "center",
+          aos: "fade-right"
+        },
+        Text{
+          id: "text2",
+          width: "auto",
+          height: "auto",
+          value: "<#item.text#>",
+          fontSize: {
+            default: 18,
+            lg: 21
+          },
+          fontFamily: "Century Gothic",
+          bottom: 40,
+          left: 0,
+          right: 0,
+          lineHeight: 34,
+          letterSpacing: -1,
+          horizontalAlign: "center",
+          modelFor: "<#features#>"
+        }
+      ],
+      position: "relative",
+      gap: 20
+    },
+    Flow{
+      id: "gridcolumn03",
+      left: {
+        default: 0,
+        md: "10%"
+      },
+      right: {
+        default: 0,
+        md: "10%"
+      },
+      child: [
+        Object{
+          id: "featureitemgridcolumn031",
+          name: "FeatureItem",
+          width: {
+            default: "50%",
+            md: "25%"
+          },
+          height: 136,
+          modelFor: "<#features#>",
+          bind_title: "<#item.title#>",
+          bind_color: "<#item.color#>",
+          bind_icon: "<#item.icon#>",
+          aos: "flip-up"
+        }
+      ],
+      justify: "center"
+    }
+  ],
+  left: 0,
+  right: 0,
+  position: "relative"
+},

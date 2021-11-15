@@ -1,0 +1,157 @@
+
+Item{
+  id: "item0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  child: [
+    ScrollArea{
+      id: "scrollarea0",
+      x: 0,
+      y: 0,
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      overflow: "scroll",
+      overflowX: "hidden",
+      overflowY: "scroll",
+      styleMode: 3,
+      barWidth: 4,
+      child: [
+        Column{
+          id: "columnscrollarea01",
+          height: "auto",
+          y: 0,
+          left: 0,
+          right: 0,
+          child: [
+            Row{
+              id: "rowcolumnscrollarea013",
+              width: 100,
+              height: 40,
+              y: 0,
+              left: 0,
+              right: 0,
+              color: "#333",
+              visible: {
+                default: false,
+                md: true
+              },
+              child: [
+                Image{
+                  id: "imagerowcolumnscrollarea0131",
+                  width: 32,
+                  height: 32,
+                  x: 0,
+                  verticalCenter: 0,
+                  source: "Resources/logoWhite.png"
+                },
+                Row{
+                  id: "rowrowcolumnscrollarea0133",
+                  width: "auto",
+                  height: "auto",
+                  x: 0,
+                  y: 0,
+                  child: [
+                    Button{
+                      id: "buttonrowrowcolumnscrollarea01331",
+                      width: "auto",
+                      height: 30,
+                      x: 0,
+                      y: 0,
+                      flat: true,
+                      dark: true,
+                      value: "<#this.$t('Navbar.ide')#>"
+                    },
+                    Button{
+                      id: "buttonrowrowcolumnscrollarea013312",
+                      width: "auto",
+                      height: 30,
+                      x: 0,
+                      y: 0,
+                      flat: true,
+                      dark: true,
+                      value: "<#this.$t('Navbar.designer')#>"
+                    },
+                    Button{
+                      id: "buttonrowrowcolumnscrollarea013313",
+                      width: "auto",
+                      height: 30,
+                      x: 0,
+                      y: 0,
+                      flat: true,
+                      dark: true,
+                      value: "<#this.$t('Navbar.game')#>"
+                    }
+                  ],
+                  gap: 20
+                },
+                Row{
+                  id: "rowrowcolumnscrollarea01333",
+                  width: "auto",
+                  height: "auto",
+                  x: 0,
+                  y: 0,
+                  child: [
+                    Button{
+                      id: "buttonrowrowcolumnscrollarea01331",
+                      width: "auto",
+                      height: 30,
+                      x: 0,
+                      y: 0,
+                      flat: true,
+                      dark: true,
+                      value: "<#this.$t('Navbar.signin')#>"
+                    }
+                  ]
+                }
+              ],
+              paddingTop: 4,
+              paddingBottom: 4,
+              paddingLeft: 24,
+              paddingRight: 24,
+              justify: "space-between"
+            },
+            Object{
+              id: "headercolumnscrollarea011",
+              width: 100,
+              height: 60,
+              y: 0,
+              name: "Header",
+              left: 0,
+              right: 0
+            },
+            Slot{
+              id: "slotDefault",
+              height: "auto",
+              left: 0,
+              right: 0,
+              name: "main"
+            },
+            Object{
+              id: "footer",
+              height: "auto",
+              name: "Footer",
+              left: 0,
+              right: 0
+            }
+          ]
+        }
+      ]
+    },
+    Object{
+      id: "cookieboxitem03",
+      width: "auto",
+      height: "auto",
+      name: "CookieBox",
+      bottom: 39,
+      horizontalCenter: 0
+    }
+  ],
+  left: 0,
+  right: 0,
+  top: 0,
+  bottom: 0
+},

@@ -1,0 +1,139 @@
+
+Row{
+  id: "row0",
+  width: "auto",
+  x: 0,
+  y: 100,
+  child: [
+    Row{
+      id: "row01",
+      width: "auto",
+      top: 0,
+      bottom: 0,
+      class: [
+        "twoSecBtn"
+      ],
+      child: [
+        Row{
+          id: "rectanglerow01",
+          width: "auto",
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          color: "<#color#>",
+          child: [
+            Image{
+              id: "imagerectanglerow015",
+              width: 40,
+              height: 40,
+              x: 0,
+              verticalCenter: 0,
+              source: "<#currentImage#>"
+            },
+            Text{
+              id: "textrectanglerow0111",
+              width: "auto",
+              height: "auto",
+              x: 0,
+              value: "<#currentText#>",
+              color: "<#textColor#>",
+              whiteSpace: "nowrap",
+              verticalCenter: 0
+            }
+          ],
+          paddingLeft: 15,
+          paddingRight: 15,
+          gap: 8
+        },
+        Row{
+          id: "rectanglerow012",
+          width: "auto",
+          height: 100,
+          x: 0,
+          top: 0,
+          bottom: 0,
+          color: "<#rightColor#>",
+          paddingLeft: 15,
+          paddingRight: 15,
+          child: [
+            Icon{
+              id: "iconrectanglerow0121",
+              width: 15,
+              height: 15,
+              x: 0,
+              iconName: "ion-ios-arrow-forward",
+              size: 25,
+              verticalCenter: 0,
+              color: "#ffda21"
+            }
+          ],
+          gap: 5
+        }
+      ],
+      radius: 4,
+      event: [
+        MouseEvent{
+          section: "mouse",
+          name: "click",
+          action: "<#openPanel#>"
+        },
+        MouseEvent{
+          section: "mouse",
+          name: "mouseover",
+          action: "<#hoverIn#>"
+        },
+        MouseEvent{
+          section: "mouse",
+          name: "mouseout",
+          action: "<#hoverOut#>"
+        }
+      ],
+      border: 1,
+      borderColor: "<#borderColor#>",
+      ripple: true
+    },
+    Row{
+      id: "rowrow03",
+      top: 0,
+      bottom: 0,
+      child: [
+        Image{
+          id: "imagerowrow031",
+          width: 50,
+          height: 50,
+          verticalCenter: 0,
+          child: [
+            MouseArea{
+              id: "mouseareaimagerowrow0311",
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              cursor: "pointer",
+              onClicked: "<#choose(index)#>"
+            }
+          ],
+          radius: 8,
+          modelFor: "<#datas#>",
+          source: "<#item.image#>",
+          ripple: true
+        }
+      ],
+      width: "auto",
+      paddingLeft: 10,
+      paddingRight: 10,
+      gap: 10,
+      radius: 8,
+      color: "#fff",
+      modelIf: "<#panelVisible#>",
+      border: 1,
+      borderColor: "#dadada",
+      elevation: 2
+    }
+  ],
+  top: 0,
+  bottom: 0,
+  gap: 15,
+  position: "relative"
+},

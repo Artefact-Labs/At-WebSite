@@ -1,0 +1,66 @@
+Property Boolean actived = false
+Property title = "Test"
+Property icon = "ion-ios-home"
+Property color = "red"
+Property time = 3000
+Property ip = 0
+Property Function nextTab
+Property Function setActiveTab
+
+Data interval = null
+Data loadProgress = 0
+Data dynamicOpacity = 0.1
+
+Watch actived(val){ 
+	this.activateInterval()
+}
+
+Computed opacity(){ 
+	if(this.actived){
+		return 1
+	} else {
+		return this.dynamicOpacity
+	}
+}
+
+Method activateInterval() { 
+	if(this.actived){
+		this.CreateTimer()
+	} else {
+		clearInterval(this.interval)
+		this.loadProgress = 100
+	}
+}
+
+Method progress(){
+	if(this.loadProgress == 100){
+		this.nextTab()
+		clearInterval(this.interval)
+		this.loadProgress = 100
+	} else {
+		this.loadProgress += 1
+	}
+}
+
+Method CreateTimer(){ 
+	this.loadProgress = 0
+	this.interval = setInterval(() => {
+		this.progress()
+	}, this.time/100);
+}
+
+Method hover(){ 
+	this.dynamicOpacity = 1
+}
+
+Method out(){ 
+	this.dynamicOpacity = 0.1
+}
+
+Method setActive(){ 
+	this.setActiveTab(this.ip)
+}
+
+Created { 
+	this.activateInterval()
+}

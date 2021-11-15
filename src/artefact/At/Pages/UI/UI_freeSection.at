@@ -1,0 +1,153 @@
+
+Column{
+  id: "column0",
+  height: "auto",
+  paddingLeft: 20,
+  paddingRight: 20,
+  child: [
+    Column{
+      id: "leadSection2",
+      height: "auto",
+      bottom: 80,
+      left: {
+        default: 0,
+        md: "26%"
+      },
+      right: {
+        default: 0,
+        md: "26%"
+      },
+      child: [
+        Text{
+          id: "text1",
+          width: "auto",
+          height: "auto",
+          value: "Graphic design software with built-in assets",
+          fontSize: {
+            default: 45,
+            md: 54
+          },
+          fontFamily: "Century Gothic",
+          bold: true,
+          bottom: 30,
+          left: 0,
+          right: 0,
+          lineHeight: 70,
+          letterSpacing: -1,
+          wordSpacing: -1,
+          horizontalAlign: "center",
+          aos: "fade-right"
+        },
+        Text{
+          id: "text2",
+          width: "auto",
+          height: "auto",
+          value: "Lunacy is a powerful vector design tool for Windows. It offers all the power of Sketch, including reading and saving (!) Sketch files. It s free of charge without any time limit.",
+          fontSize: {
+            default: 18,
+            lg: 21
+          },
+          fontFamily: "Century Gothic",
+          bottom: 40,
+          left: 0,
+          right: 0,
+          lineHeight: 34,
+          letterSpacing: -1,
+          horizontalAlign: "center"
+        }
+      ],
+      position: "relative"
+    },
+    Grid{
+      id: "gridcolumn03",
+      left: {
+        default: 0,
+        md: "5%"
+      },
+      right: {
+        default: 0,
+        md: "5%"
+      },
+      height: "auto",
+      child: [
+        Col{
+          id: "colgridcolumn031",
+          cols: 6,
+          md: 3,
+          height: 236,
+          child: [
+            Card{
+              id: "cardcolgridcolumn0311",
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              elevation: 0,
+              radius: 0,
+              child: [
+                Column{
+                  id: "columnitemcardcolgridcolumn0311161",
+                  width: 100,
+                  height: "auto",
+                  x: 0,
+                  child: [
+                    Icon{
+                      id: "iconcolumnitemcardcolgridcolumn03111615",
+                      width: 30,
+                      height: 30,
+                      size: 30,
+                      iconName: "<#item.icon#>"
+                    },
+                    Text{
+                      id: "textitemcardcolgridcolumn031113",
+                      value: "<#item.title#>",
+                      fontFamily: "Century Gothic",
+                      y: 0,
+                      height: "auto",
+                      left: 0,
+                      right: 0,
+                      fontSize: 32,
+                      bold: true,
+                      whiteSpace: "nowrap",
+                      textO: true,
+                      textOverflow: "ellipsis",
+                      lineHeight: 50,
+                      verticalAlign: "center"
+                    },
+                    Text{
+                      id: "textitemcardcolgridcolumn03111332",
+                      right: 0,
+                      left: 0,
+                      value: "<#item.contextText#>",
+                      fontFamily: "Century Gothic",
+                      y: 0,
+                      fontSize: 15,
+                      lineHeight: 28
+                    }
+                  ],
+                  left: {
+                    default: 30,
+                    xs: 50
+                  },
+                  right: 30,
+                  top: 30,
+                  bottom: 30,
+                  gap: 10,
+                  _overflow: "hidden"
+                }
+              ],
+              aos: "fade-up",
+              firstColor: "<#'#edfafb'#>",
+              gradiantAngle: "<#this.randomAngle()#>",
+              secondColor: "<#'#f2f2fe'#>"
+            }
+          ],
+          modelFor: "<#datas#>"
+        }
+      ]
+    }
+  ],
+  left: 0,
+  right: 0,
+  position: "relative"
+},

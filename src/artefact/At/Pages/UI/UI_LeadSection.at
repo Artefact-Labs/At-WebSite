@@ -1,0 +1,55 @@
+
+Column{
+  id: "leadSection2",
+  height: "auto",
+  left: 0,
+  right: 0,
+  paddingLeft: 20,
+  paddingRight: 20,
+  y: 0,
+  child: [
+    Flow{
+      id: "rowleadSection21",
+      height: "auto",
+      left: 0,
+      right: 0,
+      "_row-gap": "10px",
+      gap: 10,
+      child: [
+        Object{
+          id: "leadbadgerowleadSection211",
+          name: "LeadBadge",
+          height: 25,
+          bind_value: "<#item.text#>",
+          bind_color: "<#randomColor()#>",
+          modelFor: "<#this.leadList#>",
+          width: "auto"
+        }
+      ],
+      justify: "center",
+      bottom: 30
+    },
+    Text{
+      id: "textcolumncolgridheroSection111122",
+      width: "auto",
+      height: "auto",
+      value: "<#this.$t('IDE_page.description')#>",
+      fontSize: {
+        default: 26,
+        lg: 32
+      },
+      fontFamily: "Century Gothic",
+      bold: true,
+      bottom: 40,
+      left: 0,
+      right: 0,
+      lineHeight: 50,
+      letterSpacing: -1,
+      horizontalAlign: "center"
+    },
+    Button{
+      id: "buttonleadSection25"
+    }
+  ],
+  position: "relative"
+},

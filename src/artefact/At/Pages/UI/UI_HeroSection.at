@@ -1,0 +1,139 @@
+
+Column{
+  id: "heroSection2",
+  height: "auto",
+  left: {
+    default: 0,
+    lg: "6%"
+  },
+  right: {
+    default: 0,
+    lg: "6%"
+  },
+  paddingTop: 100,
+  paddingLeft: 20,
+  paddingRight: 20,
+  child: [
+    Grid{
+      id: "gridheroSection1",
+      height: "auto",
+      y: 0,
+      left: {
+        default: 0,
+        lg: 81
+      },
+      right: 0,
+      child: [
+        Col{
+          id: "colgridheroSection11",
+          cols: 12,
+          md: 6,
+          child: [
+            Column{
+              id: "columncolgridheroSection111",
+              height: "auto",
+              left: 0,
+              right: 0,
+              child: [
+                Text{
+                  id: "textcolumncolgridheroSection1111",
+                  width: "auto",
+                  height: "auto",
+                  value: "<#'Artefact ' + this.version#>",
+                  fontSize: 18,
+                  fontFamily: "Century Gothic",
+                  bold: true,
+                  bottom: 20
+                },
+                Text{
+                  id: "textcolumncolgridheroSection11112",
+                  width: "auto",
+                  height: "auto",
+                  value: "<#this.$t('IDE_page.StartIt')#>",
+                  fontSize: {
+                    default: 45,
+                    lg: 66
+                  },
+                  fontFamily: "Century Gothic",
+                  bold: true,
+                  bottom: 40,
+                  left: 0,
+                  right: 0,
+                  lineHeight: 70,
+                  letterSpacing: -1,
+                  wordSpacing: -1
+                },
+                Text{
+                  id: "textcolumncolgridheroSection11114",
+                  width: "auto",
+                  height: "auto",
+                  value: "<#this.$t('IDE_page.brand')#>",
+                  fontSize: 21,
+                  fontFamily: "Century Gothic",
+                  bottom: 40,
+                  left: 0,
+                  right: 0,
+                  lineHeight: 30,
+                  wordSpacing: -1,
+                  letterSpacing: -1
+                },
+                Row{
+                  id: "rowcolumncolgridheroSection1117",
+                  child: [
+                    Object{
+                      id: "twosectbtnrowcolumncolgridheroSection11171",
+                      name: "TwoSectBtn",
+                      height: 50,
+                      width: "auto",
+                      bind_haveIcon: false,
+                      bind_haveImage: true,
+                      onSelectPlatform: "<#selectPlateform#>",
+                      bind_datas: "<#plattform#>"
+                    },
+                    Object{
+                      id: "downloaddirectrowcolumncolgridheroSection11173",
+                      name: "DownloadDirect",
+                      width: "auto",
+                      height: 50,
+                      y: 0,
+                      bind_linkList: "<#currentLinkList#>"
+                    }
+                  ],
+                  height: {
+                    default: "auto",
+                    lg: 50
+                  },
+                  width: {
+                    default: "100%",
+                    lg: "auto"
+                  },
+                  gap: 20,
+                  "_flex-wrap": {
+                    default: "wrap",
+                    lg: "nowrap"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        Col{
+          id: "colgridheroSection13",
+          cols: 12,
+          md: 6,
+          child: [
+            Image{
+              id: "imagecolgridheroSection131",
+              top: 0,
+              bottom: 0,
+              source: "Resources/Ide/teasers/teaser1.png",
+              fillMode: "preserveAspectCrop"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  y: 0,
+  position: "relative"
+},

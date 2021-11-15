@@ -1,0 +1,30 @@
+{
+  "Navbar": {
+    "documentation": "Documentation",
+    "signin": "Se connecter",
+    "designer": "Designer",
+    "ide": "Ide",
+    "game": "Jeux",
+    "request": "Demander des fonctionnalités",
+    "release": "Notes de mise à jour",
+    "tutorial": "Tutoriels",
+    "forum": "Forum",
+    "download": "Télécharger",
+    "trackSession": "Nous suivons les sessions à l'aide de cookies",
+    "forWhat": "Pourquoi?"
+  },
+  "Cookies": {
+    "explanation": "Nous utilisons les cookies et le stockage local pour améliorer l'UX (comme vos collections dans l'application icônes), les pouvoirs supplémentaires pour les utilisateurs payants, les analyses et les publicités.",
+    "ourPPolicy": "Notre politique de confidentialité"
+  },
+  "Footer": {
+    "privacyPo": "Politique de confidentialité",
+    "termsCond": "Modalités et conditions"
+  },
+  "IDE_page": {
+    "StartIt": "Commencez dès maintenant à créer de grands projets sur toutes les plateformes.",
+    "brand": "L' outil pour un developpement rapide, simple et efficasse.",
+    "downloadSoft": "Télécharger le logiciel",
+    "description": "Artefact est un puissant framework de développement de logiciels, jeux, sites web et apllications. Il offre toute la puissance de design de logiciels comme Sketch, y compris la gestion du responsive et du backend de son projet."
+  }
+}

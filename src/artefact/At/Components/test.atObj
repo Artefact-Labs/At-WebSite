@@ -1,0 +1,7 @@
+Data yvan = "black"
+
+Method sayHallo () { 
+	alert("yooooooooooooo")
+}
+
+Data nom = null

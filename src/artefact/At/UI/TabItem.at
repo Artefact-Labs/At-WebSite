@@ -1,0 +1,94 @@
+
+Item{
+  id: "item0",
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    Item{
+      id: "itemitem05",
+      right: 2.5,
+      left: 2.5,
+      top: 2.5,
+      bottom: 2.5,
+      child: [
+        Column{
+          id: "columnitem031",
+          right: 0,
+          left: 0,
+          top: 0,
+          bottom: 10,
+          child: [
+            Rectangle{
+              id: "rectanglecolumnitem031",
+              width: 40,
+              height: 40,
+              color: "<#color#>",
+              radius: 8,
+              horizontalCenter: 0,
+              child: [
+                Icon{
+                  id: "iconrectanglecolumnitem0311",
+                  right: 0,
+                  left: 0,
+                  top: 0,
+                  bottom: 0,
+                  color: "#fff",
+                  size: 20,
+                  iconName: "<#icon#>"
+                }
+              ]
+            },
+            Text{
+              id: "textcolumnitem033",
+              value: "<#title#>",
+              bold: true,
+              fontFamily: "Century Gothic",
+              fontSize: {
+                default: 15,
+                md: 17
+              },
+              left: 0,
+              right: 0,
+              horizontalAlign: "center",
+              whiteSpace: "nowrap",
+              textO: true,
+              textOverflow: "ellipsis"
+            }
+          ],
+          justify: "space-between"
+        },
+        Rectangle{
+          id: "loadBar2",
+          bottom: 0,
+          width: "<#loadProgress + '%'#>",
+          height: 2,
+          color: "<#color#>"
+        }
+      ]
+    },
+    MouseArea{
+      id: "mouseareaitem03",
+      right: 0,
+      left: 0,
+      top: 0,
+      bottom: 0,
+      cursor: "pointer",
+      event: [
+        MouseEvent{
+          section: "mouse",
+          name: "mouseover",
+          action: "<#hover#>"
+        },
+        MouseEvent{
+          section: "mouse",
+          name: "mouseout",
+          action: "<#out#>"
+        }
+      ],
+      onClicked: "<#setActive#>"
+    }
+  ],
+  opacity: "<#opacity#>"
+},

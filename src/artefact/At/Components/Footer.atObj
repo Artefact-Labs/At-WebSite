@@ -1,0 +1,155 @@
+Computed linkMap(){
+	return {
+		sections: [
+			{
+				text: "IDE",
+				key: "ideLink"
+			},
+			{
+				text: "Design",
+				key: "designLink"
+			},
+			{
+				text: "Game",
+				key: "gameLink"
+			},
+			{
+				text: "Requests",
+				key: "requestLink"
+			},
+			{
+				text: "About",
+				key: "aboutLink"
+			},
+			{
+				text: "Tools",
+				key: "toolsLink"
+			},
+			{
+				text: "For Developpers",
+				key: "forDevelopperLink"
+			},
+			{
+				text: "Support",
+				key: "supportLink"
+			},
+		],
+		socialLink: [
+			{
+			name: "instagram",
+			icon: "https://img.icons8.com/ios-filled/50/000000/instagram-new.png",
+			link: "https://www.google.com/"
+			},
+			{
+				name: "facebook",
+				icon: "https://img.icons8.com/material-rounded/24/000000/facebook.png",
+				link: "https://www.google.com/"
+			},
+			{
+				name: "youtube",
+				icon: "https://img.icons8.com/material-outlined/24/000000/youtube--v2.png",
+				link: "https://www.google.com/"
+			},
+			{
+				name: "twitter",
+				icon: "https://img.icons8.com/ios-glyphs/30/000000/twitter--v1.png",
+				link: "https://www.google.com/"
+			},
+		],
+	
+		leftLink: [
+			{
+				text: "Blog",
+				link: "https://www.google.com/"
+			},
+			{
+				text: "Forum",
+				link: "https://www.google.com/"
+			},
+			{
+				text: "Product Hunt",
+				link: "https://www.google.com/"
+			},
+		],
+		
+		ideLink: [
+			{
+				text: "IDE",
+				link: "https://www.google.com/"
+			},
+		],
+		
+		designLink: [
+			{
+				text: "Designer",
+				link: "https://www.google.com/"
+			},
+		],
+		
+		gameLink: [
+			{
+				text: "Create Game",
+				link: "https://www.google.com/"
+			},
+		],
+		
+		requestLink: [
+			{
+				text: "Artefact-IDE",
+				link: "https://www.google.com/"
+			},
+			{
+				text: "APK Generator",
+				link: "https://www.google.com/"
+			},
+		],
+		
+		aboutLink: [
+			{
+				text: "In short",
+				link: "https://www.google.com/"
+			},
+			{
+				text: "Business model",
+				link: "https://www.google.com/"
+			},
+			{
+				text: "Advertising",
+				link: "https://www.google.com/"
+			},
+		],
+		
+		toolsLink: [
+			{
+				text: "APK Generator",
+				link: "https://www.google.com/"
+			},
+			{
+				text: "Linguist",
+				link: "https://www.google.com/"
+			},
+		],
+		
+		forDevelopperLink: [
+			{
+				text: "Documentation",
+				link: "https://www.google.com/"
+			},
+		],
+		
+		supportLink: [
+			{
+				text: "Forum",
+				link: "https://www.google.com/"
+			},
+			{
+				text: "FAQ",
+				link: "https://www.google.com/"
+			},
+			{
+				text: "Contact us",
+				link: "https://www.google.com/"
+			},
+		]
+	}
+}

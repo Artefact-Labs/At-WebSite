@@ -1,0 +1,68 @@
+
+Column{
+  id: "column0",
+  height: "auto",
+  paddingLeft: 20,
+  paddingRight: 20,
+  child: [
+    Column{
+      id: "leadSection2",
+      height: "auto",
+      bottom: 80,
+      left: {
+        default: 0,
+        md: "26%"
+      },
+      right: {
+        default: 0,
+        md: "26%"
+      },
+      child: [
+        Text{
+          id: "text1",
+          width: "auto",
+          height: "auto",
+          value: "Graphic design software with built-in assets",
+          fontSize: {
+            default: 45,
+            md: 54
+          },
+          fontFamily: "Century Gothic",
+          bold: true,
+          bottom: 30,
+          left: 0,
+          right: 0,
+          lineHeight: 70,
+          letterSpacing: -1,
+          wordSpacing: -1,
+          horizontalAlign: "center",
+          aos: "fade-right"
+        }
+      ],
+      position: "relative"
+    },
+    Grid{
+      id: "gridcolumn03",
+      left: 0,
+      right: 0,
+      height: "auto",
+      child: [
+        Col{
+          id: "colgridcolumn031",
+          cols: 12,
+          md: 4,
+          height: "auto"
+        },
+        Col{
+          id: "colgridcolumn033",
+          md: 8,
+          cols: 12,
+          height: "auto"
+        }
+      ]
+    }
+  ],
+  left: 0,
+  right: 0,
+  position: "relative"
+},

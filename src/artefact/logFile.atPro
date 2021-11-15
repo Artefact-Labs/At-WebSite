@@ -1,0 +1,620 @@
+{
+ "type": "folder",
+ "pjType": "pc - software",
+ "name": "Artefact-Labs",
+ "iconA": "folderA",
+ "version": "0.0.1",
+ "description": "The Official web site of Artefact-Labs",
+ "author": "Artefact-Team",
+ "child": [
+  {
+   "type": "folder",
+   "name": "At",
+   "iconA": "folderB",
+   "col": "#F9B31E",
+   "child": [
+    {
+     "type": "folder",
+     "name": "Components",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "file",
+       "name": "CookieBox.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "Footer.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "Header.at",
+       "iconA": "at"
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Layouts",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "file",
+       "name": "defaultPage.at",
+       "iconA": "at"
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Pages",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "folder",
+       "name": "ApkGenerator",
+       "iconA": "folderC",
+       "col": "pink"
+      },
+      {
+       "type": "folder",
+       "name": "Design",
+       "iconA": "folderC",
+       "col": "pink"
+      },
+      {
+       "type": "folder",
+       "name": "Gaming",
+       "iconA": "folderC",
+       "col": "pink"
+      },
+      {
+       "type": "folder",
+       "name": "Linguist",
+       "iconA": "folderC",
+       "col": "pink"
+      },
+      {
+       "type": "folder",
+       "name": "UI",
+       "iconA": "folderC",
+       "col": "pink",
+       "child": [
+        {
+         "type": "file",
+         "name": "UI_FeatureSection.at",
+         "iconA": "at"
+        },
+        {
+         "type": "file",
+         "name": "UI_freeSection.at",
+         "iconA": "at"
+        },
+        {
+         "type": "file",
+         "name": "UI_HeroSection.at",
+         "iconA": "at"
+        },
+        {
+         "type": "file",
+         "name": "UI_LeadSection.at",
+         "iconA": "at"
+        },
+        {
+         "type": "file",
+         "name": "UI_ResourcesSection.at",
+         "iconA": "at"
+        },
+        {
+         "type": "file",
+         "name": "UI_SmarterSection.at",
+         "iconA": "at"
+        },
+        {
+         "type": "file",
+         "name": "UI_SolutionsSection.at",
+         "iconA": "at"
+        }
+       ]
+      },
+      {
+       "type": "file",
+       "name": "IdePage.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "UiPage.at",
+       "iconA": "at"
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "UI",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "file",
+       "name": "DownloadDirect.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "FeatureItem.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "HeroImage1.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "InfoSection.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "LeadBadge.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "RessourceTab.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "TabItem.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "TwoSectBtn.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "Vector_ide.at",
+       "iconA": "at"
+      }
+     ]
+    },
+    {
+     "type": "file",
+     "name": "main.at",
+     "iconA": "at"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Js",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.js",
+     "iconA": "js"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Resources",
+   "iconA": "folderC",
+   "col": "pink",
+   "child": [
+    {
+     "type": "folder",
+     "name": "ApkGenerator",
+     "iconA": "folderC",
+     "col": "pink"
+    },
+    {
+     "type": "folder",
+     "name": "Design",
+     "iconA": "folderC",
+     "col": "pink"
+    },
+    {
+     "type": "folder",
+     "name": "Gaming",
+     "iconA": "folderC",
+     "col": "pink"
+    },
+    {
+     "type": "folder",
+     "name": "Ide",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "folder",
+       "name": "features",
+       "iconA": "folderC",
+       "col": "pink",
+       "child": [
+        {
+         "type": "file",
+         "name": "f1.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "f2.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "f3.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "f4.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "f5.png",
+         "iconA": "png"
+        }
+       ]
+      },
+      {
+       "type": "folder",
+       "name": "gallery",
+       "iconA": "folderC",
+       "col": "pink",
+       "child": [
+        {
+         "type": "file",
+         "name": "g1.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "g2.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "g3.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "g5.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "g6.png",
+         "iconA": "png"
+        }
+       ]
+      },
+      {
+       "type": "folder",
+       "name": "teasers",
+       "iconA": "folderC",
+       "col": "pink",
+       "child": [
+        {
+         "type": "file",
+         "name": "teaser1.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "teaser2.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "teaser3.jpg",
+         "iconA": "jpg"
+        },
+        {
+         "type": "file",
+         "name": "teaser4.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "teaser5.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "teaser6.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "teaser7.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "teaser8.jpg",
+         "iconA": "jpg"
+        },
+        {
+         "type": "file",
+         "name": "video.jpg",
+         "iconA": "jpg"
+        }
+       ]
+      },
+      {
+       "type": "folder",
+       "name": "transparent",
+       "iconA": "folderC",
+       "col": "pink",
+       "child": [
+        {
+         "type": "file",
+         "name": "frontpage_illustration.png",
+         "iconA": "png"
+        },
+        {
+         "type": "file",
+         "name": "frontpage_illustration2.png",
+         "iconA": "png"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Linguist",
+     "iconA": "folderC",
+     "col": "pink"
+    },
+    {
+     "type": "folder",
+     "name": "Utils",
+     "iconA": "folderC",
+     "col": "pink",
+     "child": [
+      {
+       "type": "file",
+       "name": "linux.png",
+       "iconA": "png"
+      },
+      {
+       "type": "file",
+       "name": "mac.png",
+       "iconA": "png"
+      },
+      {
+       "type": "file",
+       "name": "windows.png",
+       "iconA": "png"
+      }
+     ]
+    },
+    {
+     "type": "file",
+     "name": "logo.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "logoWhite.png",
+     "iconA": "png"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Structure",
+   "iconA": "folderD",
+   "col": "green",
+   "deco": "pjStruc",
+   "child": [
+    {
+     "type": "file",
+     "name": "Adder.aat",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Packager.apm",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Router.art",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Store.as",
+     "child": []
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Style",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.css",
+     "iconA": "css"
+    }
+   ]
+  }
+ ],
+ "setting": [
+  {
+   "name": "Artefact-Labs"
+  }
+ ],
+ "appId": "com.artefact-labs",
+ "designState": {
+  "HeroImage1_at": {
+   "height": 704,
+   "width": 914,
+   "dark": false
+  },
+  "main_at": {
+   "height": 509,
+   "width": 604,
+   "dark": false
+  },
+  "Vector-ide_at": {
+   "height": 458,
+   "width": 565,
+   "dark": false
+  },
+  "Vector_ide_at": {
+   "height": 431,
+   "width": 500,
+   "dark": false
+  },
+  "Ui_at": {
+   "height": 738,
+   "width": 1050,
+   "dark": false
+  },
+  "TwoSectBtn_at": {
+   "height": 61,
+   "width": 500,
+   "dark": true
+  },
+  "DownloadDirect_at": {
+   "height": 45,
+   "width": 500,
+   "dark": true
+  },
+  "LeadBadges_at": {
+   "height": 29,
+   "width": 500,
+   "dark": false
+  },
+  "LeadBadge_at": {
+   "height": 71,
+   "width": 215,
+   "dark": false
+  },
+  "InfoSection_at": {
+   "height": 431,
+   "width": 971,
+   "dark": false
+  },
+  "IdePage_at": {
+   "height": 806,
+   "width": 1112,
+   "dark": false
+  },
+  "Header_at": {
+   "height": 56,
+   "width": 925,
+   "dark": false
+  },
+  "defaultPage_at": {
+   "height": 1006,
+   "width": 919,
+   "dark": false
+  },
+  "test_at": {
+   "height": 431,
+   "width": 500,
+   "dark": false
+  },
+  "CookieBox_at": {
+   "height": 431,
+   "width": 548,
+   "dark": false
+  },
+  "Footer_at": {
+   "height": 431,
+   "width": 1112,
+   "dark": false
+  },
+  "IDE_HeroSection_at": {
+   "height": 991,
+   "width": 1265,
+   "dark": false
+  },
+  "IDE_LeadSection_at": {
+   "height": 521,
+   "width": 677,
+   "dark": false
+  },
+  "IDE-ResourcesSection_at": {
+   "height": 431,
+   "width": 908,
+   "dark": false
+  },
+  "IDE-HeroSection_at": {
+   "height": 543,
+   "width": 1345,
+   "dark": false
+  },
+  "IDE_ResourcesSection_at": {
+   "height": 949,
+   "width": 1033,
+   "dark": false
+  },
+  "RessourceTab_at": {
+   "height": 493,
+   "width": 1112,
+   "dark": false
+  },
+  "TabItem_at": {
+   "height": 88,
+   "width": 184,
+   "dark": false
+  },
+  "IDE_SketchSection_at": {
+   "height": 573,
+   "width": 1112,
+   "dark": false
+  },
+  "FeatureItem_at": {
+   "height": 123,
+   "width": 292,
+   "dark": false
+  },
+  "IDE_PerformanceSection_at": {
+   "height": 917,
+   "width": 809,
+   "dark": false
+  },
+  "IDE_FeatureSection_at": {
+   "height": 431,
+   "width": 1233,
+   "dark": false
+  },
+  "IDE_freeSection_at": {
+   "height": 496,
+   "width": 1350,
+   "dark": false
+  },
+  "IDE_SolutionsSection_at": {
+   "height": 431,
+   "width": 822,
+   "dark": false
+  },
+  "IDE_SmarterSection_at": {
+   "height": 431,
+   "width": 1073,
+   "dark": false
+  }
+ },
+ "icon": "file:///G:/projets/At/awesome-artefact/Artefact-Labs/Resources/logo-cut.png"
+}

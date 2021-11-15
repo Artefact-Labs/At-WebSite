@@ -1,0 +1,12 @@
+Property title = "Sketch"
+Property color = "#f7c468"
+Property icon = "ion-md-home"
+Property Boolean noGradiant = false
+
+Computed secondColor () { 
+	if(this.noGradiant){
+		return this.color
+	} else {
+		return this.color + '6b'
+	}
+}

@@ -1,0 +1,26 @@
+Data datas = [
+	{
+		title: "Icons", 
+		icon: "ion-md-home",
+		contextText: "Lunacy is a powerful vector design tool for Windows."
+	},
+	{
+		title: "Icons", 
+		icon: "ion-md-home",
+		contextText: "Lunacy is a powerful vector design tool for Windows."
+	},
+	{
+		title: "Icons", 
+		icon: "ion-md-home",
+		contextText: "Lunacy is a powerful vector design tool for Windows."
+	},
+	{
+		title: "Icons", 
+		icon: "ion-md-home",
+		contextText: "Lunacy is a powerful vector design tool for Windows."
+	},
+]
+
+Method randomAngle(){ 
+	return 180 * Math.random()
+}

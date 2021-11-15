@@ -1,0 +1,29 @@
+
+Row{
+  id: "row0",
+  width: "auto",
+  height: 100,
+  x: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    Text{
+      id: "textrow01",
+      width: "auto",
+      height: "auto",
+      x: 0,
+      value: "<#value#>",
+      verticalCenter: 0,
+      color: "<#color#>",
+      bold: true,
+      fontFamily: "Century Gothic",
+      textTransform: "uppercase",
+      fontSize: 12
+    }
+  ],
+  paddingLeft: 10,
+  paddingRight: 10,
+  color: "<#this.color + '33'#>",
+  radius: 3,
+  position: "relative"
+},

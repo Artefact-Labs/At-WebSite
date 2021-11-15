@@ -1,0 +1,356 @@
+
+Item{
+  id: "item0",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  right: 0,
+  left: 0,
+  top: 0,
+  bottom: 0,
+  child: [
+    Card{
+      id: "carditem01",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      right: 10,
+      left: 10,
+      top: 10,
+      bottom: 10,
+      radius: 8,
+      child: [
+        Item{
+          id: "top",
+          width: 100,
+          height: 25,
+          y: 0.25,
+          left: 0,
+          right: 0,
+          child: [
+            Row{
+              id: "rowtop1",
+              width: "auto",
+              height: 100,
+              top: 0,
+              bottom: 0,
+              child: [
+                Rectangle{
+                  id: "topDot",
+                  width: 10,
+                  height: 10,
+                  x: 0,
+                  color: "#ff155f",
+                  radius: 5,
+                  verticalCenter: 0
+                },
+                Rectangle{
+                  id: "topDot2",
+                  width: 10,
+                  height: 10,
+                  x: 0,
+                  color: "#ffbb10",
+                  radius: 5,
+                  verticalCenter: 0
+                },
+                Rectangle{
+                  id: "topDot3",
+                  width: 10,
+                  height: 10,
+                  x: 0,
+                  color: "#13ff62",
+                  radius: 5,
+                  verticalCenter: 0
+                }
+              ],
+              left: 10,
+              gap: 5
+            }
+          ]
+        },
+        Item{
+          id: "topPath",
+          width: 100,
+          height: 18,
+          left: 0,
+          right: 0,
+          top: 25,
+          child: [
+            Row{
+              id: "rowtop11",
+              width: "auto",
+              height: 100,
+              top: 0,
+              bottom: 0,
+              child: [
+                Rectangle{
+                  id: "rectanglerowtop111",
+                  width: "30%",
+                  height: 20,
+                  x: 0,
+                  color: "#cbccd8",
+                  radius: 10,
+                  opacity: 0.7,
+                  top: 0,
+                  bottom: 0
+                },
+                Icon{
+                  id: "iconrowtop113",
+                  width: 20,
+                  height: 20,
+                  x: 0,
+                  iconName: "ion-ios-arrow-forward",
+                  color: "#cbccd8",
+                  top: 0,
+                  bottom: 0
+                },
+                Rectangle{
+                  id: "rectanglerowtop1113",
+                  width: "20%",
+                  height: 20,
+                  x: 0,
+                  color: "#cbccd8",
+                  radius: 10,
+                  opacity: 0.7,
+                  top: 0,
+                  bottom: 0
+                }
+              ],
+              left: 10,
+              gap: 5,
+              right: 10,
+              x: 10,
+              y: 0
+            }
+          ]
+        },
+        Item{
+          id: "mainContent",
+          width: 100,
+          height: 100,
+          x: 0,
+          y: 0,
+          right: 0,
+          left: 0,
+          top: 48,
+          bottom: 25,
+          child: [
+            Item{
+              id: "leftBar",
+              width: 50.25,
+              height: 100,
+              x: 0,
+              top: 0,
+              bottom: 0,
+              child: [
+                Rectangle{
+                  id: "indicator",
+                  width: 5,
+                  height: 50,
+                  x: 0,
+                  y: 0,
+                  color: "#63bbff"
+                },
+                Column{
+                  id: "columnleftBar3",
+                  width: 100,
+                  height: "auto",
+                  y: 0,
+                  left: 0,
+                  right: 0,
+                  child: [
+                    Icon{
+                      id: "iconcolumnleftBar31",
+                      width: 50,
+                      height: 50,
+                      x: 0,
+                      y: 0,
+                      size: 25,
+                      iconName: "ion-ios-keypad",
+                      color: "#cbccd8"
+                    },
+                    Icon{
+                      id: "iconcolumnleftBar312",
+                      width: 50,
+                      height: 50,
+                      x: 0,
+                      y: 0,
+                      size: 25,
+                      iconName: "ion-ios-at",
+                      color: "#cbccd8"
+                    }
+                  ]
+                },
+                Column{
+                  id: "columnleftBar33",
+                  width: 100,
+                  height: "auto",
+                  left: 0,
+                  right: 0,
+                  child: [
+                    Icon{
+                      id: "iconcolumnleftBar31",
+                      width: 50,
+                      height: 50,
+                      x: 0,
+                      y: 0,
+                      size: 25,
+                      iconName: "ion-ios-play",
+                      color: "#3ad86c"
+                    },
+                    Icon{
+                      id: "iconcolumnleftBar312",
+                      width: 50,
+                      height: 50,
+                      x: 0,
+                      y: 0,
+                      size: 25,
+                      iconName: "ion-ios-hammer",
+                      color: "#ffbb10"
+                    }
+                  ],
+                  bottom: 0
+                }
+              ]
+            },
+            ScrollArea{
+              id: "scrollareamainContent4",
+              width: 100,
+              height: 100,
+              x: 0,
+              y: 0,
+              child: [
+                Row{
+                  id: "rowscrollareamainContent41",
+                  width: "auto",
+                  height: "150%",
+                  x: 0.25,
+                  y: 0.25,
+                  child: [
+                    Column{
+                      id: "linesNumber",
+                      width: 50,
+                      height: "auto",
+                      x: 0,
+                      color: "#cbccd8",
+                      child: [
+                        Text{
+                          id: "textlinesNumber1",
+                          width: 100,
+                          height: 30,
+                          y: 0,
+                          left: 0,
+                          right: 0,
+                          value: "<# (item)#>",
+                          horizontalAlign: "left",
+                          verticalAlign: "center",
+                          color: "#3a3a3a",
+                          modelFor: "<#numberLine#>"
+                        }
+                      ],
+                      paddingLeft: 5,
+                      paddingRight: 4
+                    },
+                    Item{
+                      id: "code",
+                      width: "auto",
+                      height: "auto",
+                      x: 0,
+                      y: 0,
+                      child: [
+                        Item{
+                          id: "typed",
+                          width: "auto",
+                          height: "auto",
+                          x: 0,
+                          y: 0,
+                          position: "relative"
+                        }
+                      ]
+                    }
+                  ],
+                  gap: 2
+                }
+              ],
+              left: 50,
+              right: 0,
+              top: 0,
+              bottom: 0,
+              barWidth: 4,
+              styleMode: 5,
+              overflow: "auto",
+              overflowX: "scroll",
+              overflowY: "scroll",
+              barColor: "#63bbff",
+              barBackgroundColor: "transparent"
+            }
+          ]
+        },
+        Item{
+          id: "bottom",
+          width: 100,
+          height: 25,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          y: 43,
+          child: [
+            Rectangle{
+              id: "rectanglebottom1",
+              width: 100,
+              height: 100,
+              x: 0.25,
+              y: 0,
+              right: 0,
+              left: 0,
+              top: 0,
+              bottom: 0,
+              color: "#63bbff",
+              child: [
+                Row{
+                  id: "rowrectanglebottom11",
+                  width: 100,
+                  height: "auto",
+                  x: 0,
+                  top: 0,
+                  bottom: 0,
+                  child: [
+                    Icon{
+                      id: "iconrowrectanglebottom111",
+                      width: 25,
+                      height: 25,
+                      x: 0,
+                      y: 0,
+                      color: "#fff",
+                      size: 15,
+                      iconName: "ion-ios-phone-portrait"
+                    },
+                    Text{
+                      id: "textrowrectanglebottom113",
+                      width: 100,
+                      height: 100,
+                      x: 0,
+                      top: 0,
+                      bottom: 0,
+                      value: "Device:",
+                      verticalAlign: "center",
+                      color: "#fff",
+                      fontSize: 12,
+                      fontFamily: "Century Gothic"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      elevation: 10,
+      class: [
+        "noOverflow"
+      ]
+    }
+  ]
+},

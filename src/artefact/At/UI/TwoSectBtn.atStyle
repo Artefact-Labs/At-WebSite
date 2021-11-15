@@ -1,0 +1,4 @@
+.twoSecBtn{
+	overflow: hidden;
+	cursor: pointer;
+}

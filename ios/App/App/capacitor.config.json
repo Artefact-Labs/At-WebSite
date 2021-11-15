@@ -1,0 +1,6 @@
+{
+	"appId": "com.artefact.template",
+	"appName": "Artefact-Template",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

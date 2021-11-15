@@ -1,0 +1,9 @@
+.noOverflow{
+	overflow: hidden;
+}
+
+#typed{
+	display: inline;
+	white-space: pre;
+	color: #cbccd8;
+}

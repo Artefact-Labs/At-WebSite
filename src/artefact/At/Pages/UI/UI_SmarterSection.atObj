@@ -1,0 +1,16 @@
+Data smarterText = [
+	{
+		title: this.$t('IDE_page.smartTitle1'),
+		message: this.$t('IDE_page.smartContent1')
+	},
+	{
+		title: this.$t('IDE_page.smartTitle2'),
+		message: this.$t('IDE_page.smartContent2')
+	},
+	{
+		title: this.$t('IDE_page.smartTitle3'),
+		message: this.$t('IDE_page.smartContent3')
+	},
+]
+
+Data imageList = []

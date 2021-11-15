@@ -1,0 +1,51 @@
+
+Column{
+  id: "item02",
+  right: 0,
+  left: 0,
+  child: [
+    Rectangle{
+      id: "rectangleitem01",
+      width: 70,
+      height: 70,
+      horizontalCenter: 0,
+      radius: 12,
+      child: [
+        Icon{
+          id: "iconrectangleitem011",
+          right: 0,
+          left: 0,
+          top: 0,
+          bottom: 0,
+          size: 40,
+          color: "#fff",
+          iconName: "<#icon#>"
+        }
+      ],
+      firstColor: "<#color#>",
+      secondColor: "<#secondColor#>",
+      gradiantAngle: "<#180#>"
+    },
+    Text{
+      id: "textitem03",
+      left: 0,
+      right: 0,
+      height: "auto",
+      value: "<#title#>",
+      bold: true,
+      horizontalAlign: "center",
+      fontSize: 17,
+      fontFamily: "Century Gothic",
+      whiteSpace: "nowrap",
+      textOverflow: "ellipsis",
+      lineHeight: 30,
+      verticalAlign: "center",
+      y: 0,
+      textO: true
+    }
+  ],
+  position: "relative",
+  y: 0,
+  height: "auto",
+  gap: 8
+},

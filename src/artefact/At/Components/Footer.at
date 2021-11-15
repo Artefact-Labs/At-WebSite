@@ -1,0 +1,254 @@
+
+Column{
+  id: "column0",
+  width: 100,
+  height: "auto",
+  y: 0,
+  left: 0,
+  right: 0,
+  position: "relative",
+  paddingLeft: 30,
+  paddingRight: 30,
+  child: [
+    Flow{
+      id: "rowcolumn054",
+      height: "auto",
+      left: {
+        default: 0,
+        md: "10%"
+      },
+      right: {
+        default: 0,
+        md: "10%"
+      },
+      child: [
+        Column{
+          id: "leftC",
+          width: {
+            default: "100%",
+            md: "20%"
+          },
+          height: "auto",
+          child: [
+            Text{
+              id: "textleftC1",
+              width: "auto",
+              height: "auto",
+              x: 0,
+              y: 0,
+              value: "Artefact-Labs",
+              fontSize: 15,
+              bold: true,
+              fontFamily: "Century Gothic"
+            },
+            Flow{
+              id: "flowleftC3",
+              width: 160,
+              x: 0,
+              child: [
+                NetworkImage{
+                  id: "imagecolgridleftC3111",
+                  width: 20,
+                  height: 20,
+                  x: 0,
+                  y: 0,
+                  source: "<#item.icon#>",
+                  child: [
+                    Link{
+                      id: "linkimagecolgridleftC31113",
+                      width: 100,
+                      height: 100,
+                      x: 0,
+                      y: 0,
+                      right: 0,
+                      left: 0,
+                      top: 0,
+                      bottom: 0,
+                      to: "<#item.link#>"
+                    }
+                  ],
+                  modelFor: "<#this.linkMap.socialLink#>"
+                }
+              ],
+              gap: 8,
+              top: 25
+            },
+            Text{
+              id: "textleftC13",
+              width: "auto",
+              height: "auto",
+              value: "<#item.text#>",
+              fontSize: 12,
+              fontFamily: "Century Gothic",
+              underline: true,
+              color: "#797979",
+              child: [
+                Link{
+                  id: "linktextleftC131",
+                  to: "<#item.link#>",
+                  right: 0,
+                  left: 0,
+                  top: 0,
+                  bottom: 0
+                }
+              ],
+              modelFor: "<#this.linkMap.leftLink#>"
+            }
+          ],
+          gap: 18
+        },
+        Grid{
+          id: "gridrowcolumn053",
+          width: {
+            default: "100%",
+            md: "80%"
+          },
+          height: "auto",
+          x: 0,
+          y: 0,
+          child: [
+            Col{
+              id: "col1",
+              child: [
+                Column{
+                  id: "columncolgridrowcolumn05312",
+                  width: "auto",
+                  height: "auto",
+                  y: 0,
+                  child: [
+                    Text{
+                      id: "textleftC11",
+                      width: "auto",
+                      height: "auto",
+                      x: 0,
+                      y: 0,
+                      value: "<#section.text#>",
+                      fontSize: 15,
+                      bold: true,
+                      fontFamily: "Century Gothic"
+                    },
+                    Text{
+                      id: "textleftC132",
+                      width: "auto",
+                      height: "auto",
+                      value: "<#item.text#>",
+                      fontSize: 12,
+                      fontFamily: "Century Gothic",
+                      underline: true,
+                      color: "#797979",
+                      child: [
+                        Link{
+                          id: "linktextleftC131",
+                          to: "<#item.link#>",
+                          right: 0,
+                          left: 0,
+                          top: 0,
+                          bottom: 0
+                        }
+                      ],
+                      modelFor: "<#this.linkMap[section.key]#>"
+                    }
+                  ],
+                  left: 0,
+                  right: 0,
+                  gap: 18
+                }
+              ],
+              height: "auto",
+              md: 3,
+              cols: 12,
+              sm: 6,
+              modelFor: "<#this.linkMap.sections#>",
+              modelForConfig: "(section, sectionKey)"
+            }
+          ]
+        }
+      ],
+      paddingTop: 24,
+      paddingBottom: 24
+    },
+    Rectangle{
+      id: "rectanglecolumn05",
+      height: 1,
+      left: {
+        default: 0,
+        md: "10%"
+      },
+      right: {
+        default: 0,
+        md: "10%"
+      },
+      color: "#0000001a"
+    },
+    Flow{
+      id: "rowcolumn05",
+      height: "auto",
+      left: {
+        default: 0,
+        md: "10%"
+      },
+      right: {
+        default: 0,
+        md: "10%"
+      },
+      child: [
+        Text{
+          id: "textrowcolumn051",
+          width: {
+            default: "100%",
+            md: "20%"
+          },
+          height: "auto",
+          x: 0,
+          y: 0,
+          value: "© 2021 Artefact-Labs"
+        },
+        Grid{
+          id: "gridrowcolumn053",
+          width: {
+            default: "100%",
+            md: "80%"
+          },
+          height: "auto",
+          x: 0,
+          y: 0,
+          child: [
+            Col{
+              id: "colgridrowcolumn0531",
+              child: [
+                Text{
+                  id: "textrowcolumn0511",
+                  width: "auto",
+                  height: "auto",
+                  x: 0,
+                  y: 0,
+                  value: "<#this.$t('Footer.privacyPo')#>"
+                }
+              ],
+              height: "auto"
+            },
+            Col{
+              id: "colgridrowcolumn05312",
+              child: [
+                Text{
+                  id: "textrowcolumn0511",
+                  width: "auto",
+                  height: "auto",
+                  x: 0,
+                  y: 0,
+                  value: "<#this.$t('Footer.termsCond')#>"
+                }
+              ],
+              height: "auto"
+            }
+          ],
+          noGutters: true
+        }
+      ],
+      paddingTop: 24,
+      paddingBottom: 24,
+      y: 0
+    }
+  ],
+  color: "#f6f9fc"
+},

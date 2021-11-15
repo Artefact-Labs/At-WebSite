@@ -1,0 +1,12 @@
+Property textColor = "#179de3"
+
+Property linkList = [
+			{
+				name: "64 Bit (.exe)",
+				link: "https://artefact-labs.com/download/atCreator.exe"
+			},
+			{
+				name: "32 Bit (.exe)",
+				link: "https://artefact-labs.com/download/atCreator.exe"
+			},
+		]
